@@ -13,14 +13,21 @@ const encodedString = 'SGVsbG8gd29ybGQ=';
 console.log(isBase64(encodedString)); // Outputs: true
 ```
 
-## Function Signature
+## Use Cases
 
-```js
-function isBase64(str: string): boolean;
+### URL Params Check
+
+```tsx
+import { isBase64 } from '@/lib/utils';
+
+export default function Page() {
+    const searchParams = useSearchParams();
+    const hopefullyBase64EncodedParam = searchParams.get('q');
+
+    if(!isBase64(hopefullyBase64EncodedParam)){
+        //Do something
+    }
+    return({/*YOUR CODE*/})
+}
+
 ```
-
-This function takes a string as an argument and returns a boolean indicating whether the string is base64 encoded or not.
-
-## Implementation
-
-The function uses a regular expression to test if the input string matches the pattern of a base64 encoded string.
