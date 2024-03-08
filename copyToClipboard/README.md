@@ -1,13 +1,13 @@
 # copyToClipboard
 
-Copies the given string to the clipboard. Let's users past them.
+Copies the given string to the clipboard. Let's users paste them.
 
 ## Usage
 
 *Assuming you are collecting functions with an utils file.*
 
-```js
-import { copyToClipboard } from '@/lib/utils'; // 
+```jsx
+import { copyToClipboard } from '@/lib/utils'; 
 
 const toBeCopiedString = 'SGVsbG8gd29ybGQ=';
 copyToClipboard(encodedString); 
