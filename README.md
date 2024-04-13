@@ -9,3 +9,4 @@
 | copyToClipboard  | Copies the given string to the clipboard.  | [GitHub Link](https://github.com/BoilerplateHQ/FunctionsHQ/tree/main/copyToClipboard)  | [BoilerplateHQ Link](https://boilerplatehq.com/functions/copy-to-clipboard) |
 | backgroundPattern  | Create Background Pattern URLs  | [GitHub Link](https://github.com/BoilerplateHQ/FunctionsHQ/tree/main/backgroundPattern)  | [BoilerplateHQ Link](https://boilerplatehq.com/functions/background-pattern) |
 | capitalize  | Capitalizes the first letter of a string.  | [GitHub Link](https://github.com/BoilerplateHQ/FunctionsHQ/tree/main/capitalize)  | [BoilerplateHQ Link](https://boilerplatehq.com/functions/capitalize) |
+| stringToSlug  | Turns a string into a slug.  | [GitHub Link](https://github.com/BoilerplateHQ/FunctionsHQ/tree/main/stringToSlug)  | [BoilerplateHQ Link](https://boilerplatehq.com/functions/string-to-slug) |
